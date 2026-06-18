@@ -5,6 +5,13 @@ app_description = "Aplikasi surat elektronik sederhana"
 app_email = "gabilsayyibi@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "doctype": "DocType",
+        "filters": [["module", "in", ["Surat Elektronik"]]]
+    }
+]
+
 # Apps
 # ------------------
 
