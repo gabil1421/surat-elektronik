@@ -9,9 +9,12 @@ fixtures = [
     {
         "doctype": "DocType",
         "filters": [["module", "in", ["Surat Elektronik"]]]
+    },
+    {
+        "doctype": "Workspace",
+        "filters": [["module", "in", ["Surat Elektronik"]]]
     }
 ]
-
 # Apps
 # ------------------
 
